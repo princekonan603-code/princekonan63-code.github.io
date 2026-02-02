@@ -1,0 +1,27 @@
+div{
+  height: 300px;
+  border-radius:20px;
+  color:white;
+  background: transparent ;
+  border-color:blue;
+  
+}
+body{
+  background: #191970;
+  color:#fff;
+}
+input{
+  color:#fff;
+  border-radius:20px;
+  width:330px;
+  height: 50px;
+  background: transparent ;
+}
+button{
+  border-radius: 20px;
+  width: 90px;
+  height:40px;
+  position:fixed;
+  bottom:350px;
+  left:250px;
+}

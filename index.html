@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Connexion</title>
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div>
+    <h1>Connexion</h1>
+
+    <label>Nom</label><br>
+    <input type="text" id="nom" placeholder="Ton nom"><br><br>
+
+    <label>Email</label><br>
+    <input type="email" id="email" placeholder="Ton email"><br><br>
+
+    <label>Sexe</label><br>
+    <select id="sexe">
+      <option value="">-- choisir --</option>
+      <option value="homme">Homme</option>
+      <option value="femme">Femme</option>
+    </select><br><br>
+
+    <button onclick="envoyer()">Envoyer</button>
+  </div>
+</body>
+</html>
